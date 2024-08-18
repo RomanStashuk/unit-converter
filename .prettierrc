@@ -3,5 +3,6 @@
   "singleQuote": true,
   "semi": true,
   "jsxSingleQuote": true,
-  "bracketSpacing": true
+  "bracketSpacing": true,
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
