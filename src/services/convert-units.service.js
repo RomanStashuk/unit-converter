@@ -10,4 +10,8 @@ const getUnitDetails = (unit) => {
   return convert().describe(unit) ?? {};
 };
 
-export { allMeasures, getAllUnits, getUnitDetails };
+const convertUnits = (value, from, to) => {
+  return convert(+value).from(from).to(to);
+};
+
+export { allMeasures, getAllUnits, getUnitDetails, convertUnits };
